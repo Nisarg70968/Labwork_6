@@ -16,7 +16,7 @@ int main()
     printf("Enter the value of b: ");
     scanf("%lf", &b);
 
-    c = (a+b) * (a+b);
+    c = (a + b) * (a + b);
     ;
 
     printf("The Ans of (a+b)2 is: %lf\n", c);
@@ -38,13 +38,13 @@ int main()
     printf("Enter the value of b1: ");
     scanf("%lf", &b1);
 
-    c1 = (a1-b1) * (a1-b1);
+    c1 = (a1 - b1) * (a1 - b1);
 
     printf("The Ans of (a-b)2 is: %lf\n", c1);
 
     printf("___________________________________________________________________\n");
 
-    //Answer : 6.3 :(a+b)^3
+    // Answer : 6.3 :(a+b)^3
 
     double a2, b2, c2;
 
@@ -54,12 +54,12 @@ int main()
     printf("Enter the value of b2: ");
     scanf("%lf", &b2);
 
-    c2 = (a2+b2)*(a2+b2)*(a2+b2);
+    c2 = (a2 + b2) * (a2 + b2) * (a2 + b2);
     printf("The Ans of (a+b)3 is: %lf\n", c2);
 
     printf("___________________________________________________________________\n");
 
-    //Answer : 6.4 : (a-b)^3
+    // Answer : 6.4 : (a-b)^3
 
     double a3, b3, c3;
 
@@ -69,13 +69,13 @@ int main()
     printf("Enter the value of b3: ");
     scanf("%lf", &b3);
 
-    c3 = (a3-b3)*(a3-b3)*(a3-b3);
+    c3 = (a3 - b3) * (a3 - b3) * (a3 - b3);
 
     printf("The Ans of (a-b)3 is: %lf\n", c3);
 
     printf("___________________________________________________________________\n");
 
-    //Answer : 6.5 : (a+b+c)^3
+    // Answer : 6.5 : (a+b+c)^3
 
     double a4, b4, c4, d;
 
@@ -88,13 +88,13 @@ int main()
     printf("Enter the value of c4: ");
     scanf("%lf", &c4);
 
-    d = (a4+b4+c4)*(a4+b4+c4)*(a4+b4+c4);
+    d = (a4 + b4 + c4) * (a4 + b4 + c4) * (a4 + b4 + c4);
 
     printf("The Ans of (a+b+c)3 is: %lf\n", d);
 
     printf("___________________________________________________________________\n");
 
-    //Answer : 6.6 : (a-b-c)^3
+    // Answer : 6.6 : (a-b-c)^3
 
     double a5, b5, c5, d1;
 
@@ -107,15 +107,15 @@ int main()
     printf("Enter the value of c5: ");
     scanf("%lf", &c5);
 
-    d1 = (a5-b5-c5)*(a5-b5-c5)*(a5-b5-c5);
+    d1 = (a5 - b5 - c5) * (a5 - b5 - c5) * (a5 - b5 - c5);
 
     printf("The Ans of (a-b-c)3 is: %lf\n", d1);
 
     printf("___________________________________________________________________\n");
 
-    //Answer : 6.7 : (a+b+c)^2
+    // Answer : 6.7 : (a+b+c)^2
 
- double a6, b6, c6, d2;
+    double a6, b6, c6, d2;
 
     printf("Enter the value of a6: ");
     scanf("%lf", &a6);
@@ -126,16 +126,14 @@ int main()
     printf("Enter the value of c6: ");
     scanf("%lf", &c6);
 
-    d2 = (a6+b6+c6)*(a6+b6+c6);
+    d2 = (a6 + b6 + c6) * (a6 + b6 + c6);
 
     printf("The Ans of (a+b+c)2 is: %lf\n", d2);
 
     printf("___________________________________________________________________\n");
 
-
     return 0;
 }
-
 
 /*
 
